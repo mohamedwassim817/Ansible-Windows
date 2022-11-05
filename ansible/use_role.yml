@@ -1,9 +1,0 @@
-- name: Use a role
-  hosts: all
-  tasks:
-    - name: Use the role
-      include_role:
-        name: common
-      vars:
-        timezone: GMT Standard Time
-        unicode_language: en-GB

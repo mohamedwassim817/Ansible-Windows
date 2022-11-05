@@ -1,5 +1,5 @@
 - name: Install the required things
-  hosts: all
+  hosts: 172.30.28.164
   tasks:
     - name: Make sure the print spooler service is running
       win_service:

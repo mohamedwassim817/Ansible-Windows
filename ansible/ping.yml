@@ -1,7 +1,7 @@
 ---
 # Sample playbook for ping the windows host
 - name: Ping
-  hosts: windows
+  hosts: 172.30.28.164
   gather_facts: false
 
   tasks:
